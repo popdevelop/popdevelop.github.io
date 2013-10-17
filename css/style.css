@@ -1,0 +1,223 @@
+html {
+  background: #333333 url("../images/bg.png"); }
+
+body {
+  margin: 0;
+  background: url("../images/bg-shadow.png") top left repeat-x;
+  color: #FFF; }
+
+#header {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  position: relative; }
+  #header h1 {
+    background: url("../images/logo.png") center top no-repeat;
+    text-indent: -9999px;
+    height: 70px;
+    margin-bottom: 50px; }
+  #header div {
+    background: url("../images/slogan.png") no-repeat; }
+  #header em {
+    background: url("../images/../images/banner.png") center top no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 137px;
+    width: 137px; }
+  #header p#passion {
+    background: url("../images/slogan-passion.png") center top no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    width: 300px;
+    height: 70px; }
+  #header p#kills {
+    background: url("../images/slogan-kills.png") center top no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    width: 300px;
+    height: 70px; }
+  #header p#play {
+    background: url("../images/slogan-play.png") center top no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    width: 300px;
+    height: 70px; }
+
+h2.hline {
+  text-align: center;
+  background: url("../images/hr.png") top left no-repeat;
+  padding-top: 10px;
+  height: 55px; }
+
+.section {
+  margin-bottom: 30px; }
+  .section h2 {
+    margin-bottom: 30px; }
+
+#projects h2 {
+  margin-bottom: 20px; }
+  #projects h2 a {
+    color: #f39ac0;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 400px;
+    height: 40px; }
+#projects ul li {
+  min-height: 400px; }
+  #projects ul li div.frame {
+    margin-left: 63px;
+    position: relative;
+    background: url("../images/photo.png");
+    width: 330px;
+    height: 175px; }
+    #projects ul li div.frame img {
+      position: absolute;
+      left: 18px;
+      top: 8px;
+      width: 298px;
+      height: 136px; }
+  #projects ul li span {
+    text-indent: -9999px;
+    float: left;
+    margin-left: -25px;
+    width: 92px;
+    height: 92px;
+    background: transparent url("../images/box.png") left 4px no-repeat; }
+  #projects ul li p {
+    text-shadow: #000 0px 1px 1px;
+    margin-left: 63px;
+    padding: 0 10px;
+    width: 314px;
+    font-size: 14px; }
+  #projects ul li h3 {
+    margin: 0; }
+  #projects ul li:hover span {
+    background-image: url("../images/box-hover.png"); }
+#projects ul li#dogvibes h3 {
+  background: url(../images/project-dogvibes.png) right top no-repeat;
+  text-indent: -9999px;
+  width: 390px;
+  height: 100px;
+  margin-left: 55px; }
+#projects ul li#kollektivt h3 {
+  background: url(../images/project-kollektivt.png) right top no-repeat;
+  text-indent: -9999px;
+  width: 390px;
+  height: 100px;
+  margin-left: 55px; }
+#projects ul li#malen h3 {
+  background: url(../images/project-malen.png) right top no-repeat;
+  text-indent: -9999px;
+  width: 390px;
+  height: 100px;
+  margin-left: 55px; }
+#projects ul li#nyhetskartan h3 {
+  background: url(../images/project-nyhetskartan.png) right top no-repeat;
+  text-indent: -9999px;
+  width: 390px;
+  height: 100px;
+  margin-left: 55px; }
+
+#theteam h2 a {
+  color: #f39ac0;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 400px;
+  height: 40px; }
+#theteam ul li {
+  text-shadow: #000 0px 1px 1px;
+  margin-bottom: 30px; }
+  #theteam ul li img {
+    float: left;
+    width: 125px;
+    height: 125px;
+    border: 7px solid #24272F;
+    display: inline-block;
+    margin-right: 20px; }
+  #theteam ul li strong {
+    text-transform: uppercase;
+    display: block;
+    margin-left: 160px; }
+  #theteam ul li address {
+    color: #9c9c9c;
+    font-style: normal;
+    line-height: 1.5em;
+    margin-left: 160px; }
+#theteam ul li#sebastian h3 {
+  background: url("../images/name-seb.png") center left no-repeat;
+  height: 50px;
+  width: 304px;
+  margin: 0 0 0 145px;
+  text-indent: -9999px; }
+#theteam ul li#joel h3 {
+  background: url("../images/name-joel.png") center left no-repeat;
+  height: 50px;
+  width: 304px;
+  margin: 0 0 0 145px;
+  text-indent: -9999px; }
+#theteam ul li#gyllen h3 {
+  background: url("../images/name-gyllen.png") center left no-repeat;
+  height: 50px;
+  width: 304px;
+  margin: 0 0 0 145px;
+  text-indent: -9999px; }
+#theteam ul li#brissmyr h3 {
+  background: url("../images/name-brissmyr.png") center left no-repeat;
+  height: 50px;
+  width: 304px;
+  margin: 0 0 0 145px;
+  text-indent: -9999px; }
+
+#skills {
+  margin-bottom: 0; }
+  #skills h2 a {
+    color: #f39ac0;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 400px;
+    height: 40px; }
+  #skills ul li {
+    text-shadow: #000 0px 1px 1px;
+    background-position: 0px 5px;
+    background-repeat: no-repeat;
+    min-height: 100px; }
+    #skills ul li h3 {
+      font-size: 24px;
+      margin: 0 0 0 65px; }
+    #skills ul li p {
+      color: #d0d0d0;
+      line-height: 1.35em;
+      width: 220px;
+      margin-left: 65px; }
+  #skills ul li#surface {
+    background-image: url("../images/cube-cyan.png"); }
+  #skills ul li#nerdy {
+    background-image: url("../images/cube-brown.png"); }
+  #skills ul li#hobby {
+    background-image: url("../images/cube-yellow.png"); }
+  #skills ul li#mobile {
+    background-image: url("../images/cube-purple.png"); }
+  #skills ul li#cool {
+    background-image: url("../images/cube-green.png"); }
+
+#skills_shadow {
+  position: relative;
+  z-index: 1000;
+  background: url("../images/footer-shadow.png") bottom left repeat-x;
+  width: 100%;
+  padding-bottom: 10px;
+  margin: 0 0 -1px 0; }
+
+#map {
+  position: relative;
+  z-index: 500;
+  width: 100%;
+  height: 460px;
+  background: #111111 url("../images/footer-bg.png") top left; }
+  #map p {
+    height: 460px;
+    text-indent: -9999px;
+    margin-left: -30px;
+    background: url("../images/map.png") 35px left no-repeat; }
